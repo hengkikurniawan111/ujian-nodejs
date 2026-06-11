@@ -1,0 +1,16 @@
+{
+  "name": "rancang-endpoint-get",
+  "version": "1.0.0",
+  "description": "Rancangan Backend Express.js & Sequelize untuk Endpoint GET Tasks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node seed.js",
+    "example-query": "node examples.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
